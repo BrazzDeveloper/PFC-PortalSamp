@@ -1,0 +1,41 @@
+{FF0000}SOBRE{FFFFFF}
+{9B5EDA}Perfect City RPG{FFFFFF} é um servidor Grand Theft Auto - San Andreas Online, o famoso sa:mp.
+Este gamemode começou a ser desenvolvido no ano de 2017 por {00bbff}Glederson {ffffff}"SammyJ" {00bbff}Domingues{FFFFFF} e {00bbff}Grener {ffffff}"Delk" {00bbff}Augusto{FFFFFF}, com o intuito de trazer um modo de jogo divertido e dinâmico.
+Em 2020 {00bbff}Nelson {ffffff}"NelsonC" {00bbff}Coutinho{ffffff} decidiu dar continuidade ao gamemode.
+
+Nossa ideia de criar um servidor RPG foi básicamente costruída vendo outros servidores em si.
+A ideia é montar um servidor estilo vida real para trazer um pouco de diversão para fãs de SA-MP.
+Não buscamos cópiar ninguém, nós buscamos cada vez mais inovar, trazer novas profissões, novos sistemas, dentre outras coisas que você verá assim que jogar em nosso servidor.
+Nossa Equipe de Administração trabalhando arduamente em novos projetos a serem ainda elaborados para enfim ser desenvolvido para ir direto para o nosso servidor e fazer a alegria dos nossos jogadores.
+Perfect City é inovação não cópia de outros servidores. Antes de Questionar nosso servidor tente conhecer a menos, procure qualquer membro Administrador ou Diretor para sanar suas dúvidas.
+
+{FF0000}CRÉDITOS{FFFFFF}
+{0BA7E8}»{FFFFFF} SammyJ por criar e iniciar o projeto na nova fase do servidor titulada como Perfect City.
+{0BA7E8}»{FFFFFF} Delk por ajudar no desenvolvimento do servidor, estando sempre disposto a ajudar no que for preciso.
+{0BA7E8}»{FFFFFF} NelsonC. por dar continuidade ao servido titulado como Brasil Life Honest sendo trocando novamente para Perfect City.
+{0BA7E8}»{FFFFFF} A Nossa Administração em geral, ao que estão conosco até hoje e aos que já não fazem parte da equipe.
+{0BA7E8}»{FFFFFF} SA-MP Team por nos disponibilizar esse grande mod gratuitamente.
+{0BA7E8}»{FFFFFF} Aos membros do forum-samp.com & portalsamp.com por disponibilizar algumas includes e plugins que utilizamos.
+
+{FF0000}EQUIPE{FFFFFF}
+{0BA7E8}»{FFFFFF} Desenvolvimento:
+	{FFFF00}•{FFFFFF} Nelson {00bbff}"NelsonC." {FFFFFF}Coutinho
+
+{0BA7E8}»{FFFFFF} Direção:
+	{FFFF00}•{FFFFFF} Alex {00bbff}"Alex"
+	{FFFF00}•{FFFFFF} Raquel {00bbff}"RaquelRDZ" {FFFFFF}Deltz
+
+{0BA7E8}»{FFFFFF} Administradores:
+	{FFFF00}•{FFFFFF} Laly {00bbff}"Laly"
+
+{0BA7E8}»{FFFFFF} Moderadores:
+	{FFFF00}•{FFFFFF} Nicolas {00bbff}"Tortato"
+
+{0BA7E8}»{FFFFFF} Ajudantes:
+	{FFFF00}•{FFFFFF} Ninguém {00bbff}"Ninguém"
+
+{FF0000}AGRADECIMENTO{FFFFFF}
+Nosso agradecimento especial é para todos os jogadores e BETAS TESTER que nos ajudaram em nosso desenvolvimento até aqui.
+Deixo aqui nosso muito Obrigado!!!
+
+		» Perfect City - Sua segunda vida começa aqui! {00bbff}www.perfectcityrpg.com.br{FFFFFF}

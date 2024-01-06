@@ -1,0 +1,25 @@
+	{00FFBB}..:: AJUDA VIP ::..{FFFFFF}
+
+Salário VIP de {00FF00}R$3.000.{FFFFFF}
+
+Up level mais rápido.
+
+Acesso ao comando {FFFF00}/v{FFFFFF}.
+
+Acesso ao comando {FFFF00}/jetpack{FFFFFF}.
+
+Acesso ao comando {FFFF00}/autotunning{FFFFFF}.
+
+Acesso ao comando {FFFF00}/cortag{FFFFFF}.
+
+Acesso ao comando {FFFF00}/vencimentovip{FFFFFF}.
+
+Acesso ao comando {FFFF00}/virar{FFFFFF}.
+
+Acesso ao comando {FFFF00}/pintar{FFFFFF}.
+
+Acesso ao comando {FFFF00}/neon{FFFFFF}.
+
+Acesso ao comando {FFFF00}/tunar{FFFFFF}.
+
+Acesso ao comando {FFFF00}/repararv{FFFFFF}.

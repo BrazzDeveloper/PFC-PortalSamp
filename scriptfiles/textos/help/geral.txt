@@ -1,0 +1,34 @@
+	{00FFBB}..:: AJUDA EXPERIÊNCIA ::..{FFFFFF}
+
+Você ganha um ponto de experiencia a cada 10 minutos jogados.
+Se você estiver preso, seus tempo para o up não contará.
+
+	{00FFBB}..:: AJUDA LEVEL ::..{FFFFFF}
+
+Você ganha um {00FF00}+{FFFFFF}1 level quando atinge o requisito de experiencias necessário.
+A Cada {00FFBB}100{FFFFFF} leveis adquiridos mais expêriencias serão necessárias para adquirir mais leveis.
+
+	{00FFBB}..:: COMANDOS PRINCIPAIS ::..{FFFFFF}
+
+{FFFF00}/dormir {00FFBB}»{FFFFFF} Para seu personagem descansar.
+
+{FFFF00}/acordar {00FFBB}»{FFFFFF} Para seu personagem despertar do descansar.
+
+{FFFF00}/animlist {00FFBB}»{FFFFFF} Para ver uma lista de animações.
+
+{FFFF00}/duvida {00FFBB}»{FFFFFF} Para perguntar alguma dúvida que venha a ter sobre o servidor.
+
+{FFFF00}/reportar {00FFBB}»{FFFFFF} Para reportar algum jogador infrator.
+
+{FFFF00}/ejetar {00FFBB}»{FFFFFF} Para expulsar o jogador do veiculo que você estiver dirigindo.
+
+{FFFF00}/config {00FFBB}»{FFFFFF} Comando para configurações de sua conta.
+
+{FFFF00}/identidade {00FFBB}»{FFFFFF} Comando para ver suas informações.
+
+{FFFF00}/me {00FFBB}»{FFFFFF} Comando para interpretar uma ação de seu personagem.
+
+
+{FF0000}ATENÇÃO{FFFFFF}
+	* Se você for um jogador {FFBB00}VIP{FFFFFF} os requisitos não irá aumentar, ou seja, continuará nos x/{00BBFF}6{FFFFFF}.
+

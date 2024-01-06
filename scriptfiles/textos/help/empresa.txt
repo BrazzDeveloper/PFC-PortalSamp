@@ -1,0 +1,30 @@
+﻿	{00FFBB}..:: AJUDA EMPRESA ::..{FFFFFF}
+
+{00BBFF}+SOBRE{FFFFFF}
+
+ - Você deverá pagar o impostos de sua empresa, que são gerados todos os dias quando o servidor reinicia.
+ - Ao acomular {00FF00}+{FFFFFF}15 impostos, sua propriedade será automáticamente liberada para novos compradores.
+ - Ao upar sua empresa o valor total da entrega aumenta. Nisso você e seus funcionários poderam ganhar mais.
+ - Você poderá contratar mais funcionários ao upar sua empresa.
+ - O salário dos seus funcionários são pagos no ato da entrega da mercadoria.
+ - Você é quem define o salário dos funcionários na seçao {00FFBB}Salário{FFFFFF} no comando {FF0000}/menuempresa{FFFFFF}.
+
+{00BBFF}COMANDOS{FFFFFF}
+
+{FFFF00}/comprarempresa{FFFFFF} » Para comprar uma empresa.
+
+{FFFF00}/venderempresa{FFFFFF} » Para vender sua empresa.
+
+{FFFF00}/menuempresa{FFFFFF} » Abre um dialog com algumas opções.
+	{FF0000}Contratar{FFFFFF} - Para contratar um jogador ( ele deve está próximo a você ).
+	{FF0000}Demitir{FFFFFF} - Para demitir um jogador.
+	{FF0000}Alterar Mensagem{FFFFFF} - Para alterar a mensagem de boas vindas no /infoempresa.
+	{FF0000}Alterar Salário{FFFFFF} - Para alterar o salário de seus funcionários.
+	{FF0000}Cofre{FFFFFF} - Para sacar o dinheiro no cofre da empresa.
+	{FF0000}Atualizar{FFFFFF} - Para atualizar sua empresa, caso já tenho os requisitos necessários.
+
+{FFFF00}/pegarmercadoria{FFFFFF} » Para pegar a mercadoria em BaySide.
+
+{FFFF00}/entregarmecadoria{FFFFFF} » Para entregar a mercadoria na empresa.
+
+{FFFF00}/infoempresa{FFFFFF} » Para ver as infomações da empresa.

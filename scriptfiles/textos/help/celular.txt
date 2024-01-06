@@ -1,0 +1,11 @@
+{00FFBB}..:: AJUDA CELULAR ::..{FFFFFF}
+
+{FFFF00}/discar{FFFFFF} » Para fazer uma discagem para um número de telefone celular.
+
+{FFFF00}/finalizar{FFFFFF} » Para finalizar uma chamada.
+
+{FFFF00}/sms{FFFFFF} » Para enviar sms ao número.
+
+{FFFF00}/agenda{FFFFFF} » Para ver um número de um jogador, mas para isso você deve adquirir uma agenda no 27/4.
+
+{FFFF00}/meucelular{FFFFFF} » Para ver algumas infomações do seu celular.

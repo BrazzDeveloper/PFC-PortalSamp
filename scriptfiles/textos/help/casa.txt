@@ -1,0 +1,29 @@
+	{00FFBB}..:: AJUDA CASA ::..{FFFFFF}
+
+{00BBFF}+SOBRE{FFFFFF}
+
+ - Você deverá pagar o impostos de sua casa, que são gerados todos os dias quando o servidor reinicia.
+ - Ao acomular {00FF00}+{FFFFFF}15 impostos, sua propriedade será automáticamente liberada para novos compradores.
+ - Sempre quanto pagas impostos de sua empresa {00FF00}+{FFFFFF}1 ponto é adicionado nela. Ao acumular {00BBFF}30{FFFFFF} pontos sua casa upa e poderá liberar mais interiores para ela.
+
+{00BBFF}COMANDOS{FFFFFF}
+
+{FFFF00}/comprarcasa{FFFFFF} » Para comprar uma casa.
+
+{FFFF00}/menucasa{FFFFFF} » Abre um dialog com algumas opções.
+	{FF0000}Gerenciar Moradores{FFFFFF} - Para expulsar morador.
+	{FF0000}Porta{FFFFFF} - Para trancar/destrancar a porta da casa.
+	{FF0000}Alugar Quarto{FFFFFF} - Para ativar/desativar o aluguel.
+	{FF0000}Alterar Mensagem{FFFFFF} - Para alterar a mensagem de boas vindas da casa ( disponível no /infocasa).
+	{FF0000}Atualizar Interior{FFFFFF} - Para atualizar o interior da casa.
+	{FF0000}Vender Casa{FFFFFF} - Para vender a casa. Com perda de 50% do valor da casa.
+
+{FFFF00}/alugarquarto{FFFFFF} » Para alugar um quarto.
+
+{FFFF00}/desalugarquarto{FFFFFF} » Para desalugar um quarto.
+
+{FFFF00}/infocasa{FFFFFF} » Para ver as informações da casa.
+
+{FFFF00}/trancarcasa{FFFFFF} » Para trancar a porta da casa.
+
+{FFFF00}/destrancarcasa{FFFFFF} » Para destrancar a porta da casa.

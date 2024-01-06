@@ -1,0 +1,34 @@
+	{00FFBB}..:: AJUDA VEICULO ::..
+
+{FFFF00}/ligar{00FFBB} » {FFFFFF}Para ligar o motor.
+
+{FFFF00}/desligar{00FFBB} » {FFFFFF}Para desligar o motor.
+
+{FFFF00}/ligarfarois{00FFBB} » {FFFFFF}Para ligar os faróis.
+
+{FFFF00}/desligarfarois{00FFBB} » {FFFFFF}Para desligar os faróis.
+
+{FFFF00}/abrircapo{00FFBB} » {FFFFFF}Para abrir o capo do veiculo.
+
+{FFFF00}/fecharcapo{00FFBB} » {FFFFFF}Para fechar o capo do veiculo.
+
+{FFFF00}/abrirportamalas{00FFBB} » {FFFFFF}Para abrir o portamalas.
+
+{FFFF00}/fecharportamalas{00FFBB} » {FFFFFF}Para fechar o portamalas.
+
+{FFFF00}/localizarveiculos{00FFBB} » {FFFFFF}Para localizar seus veiculos comprados na concessionária.
+
+{FFFF00}/estacionar{00FFBB} » {FFFFFF}Para estacionar seu veiculo no local.
+
+{FFFF00}/destrancarveiculo{00FFBB} » {FFFFFF}Para destrancar as portas do veiculo.
+
+{FFFF00}/trancarveiculo{00FFBB} » {FFFFFF}Para trancar as portas do veiculo.
+
+{FF0000}ATENÇÃO{FFFFFF}
+	* Você pode trancar/destrancar as portas do veiculo dentro dele ou pelo lado de fora, porém, tem que está bem proximo do veiculo.
+
+	* Você pode usar a tecla {FFFF00}Y{FFFFFF} para ligar e desligar o motor do veiculo.
+
+	* Você pode usar a tecla {FFFF00}N{FFFFFF} para ligar e desligar os faróis.
+
+	* Caso seu veiculo fique bugado, você deve ir até o Shopping no 1º Andar e solicitar o guincho do veiculo ou procure um mecânico para lhe ajudar.

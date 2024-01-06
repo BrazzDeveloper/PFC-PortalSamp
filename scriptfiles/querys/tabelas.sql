@@ -1,0 +1,168 @@
+CREATE TABLE IF NOT EXISTS `anuncios` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `texto` varchar(144) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `banco` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `username` varchar(25) NOT NULL,
+  `saldo` int(11) NOT NULL,
+  `senha` varchar(64) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `banidos` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `username` varchar(25) NOT NULL,
+  `admin` varchar(25) NOT NULL,
+  `ip` varchar(16) NOT NULL DEFAULT '',
+  `data` datetime NOT NULL,
+  `motivo` varchar(20) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `casas` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `proprietario` varchar(25) NOT NULL,
+  `valor` int(11) NOT NULL,
+  `cofre` int(11) NOT NULL,
+  `entrada_x` float NOT NULL,
+  `entrada_y` float NOT NULL,
+  `entrada_z` float NOT NULL,
+  `entrada_a` float NOT NULL,
+  `saida_x` float NOT NULL,
+  `saida_y` float NOT NULL,
+  `saida_z` float NOT NULL,
+  `saida_a` float NOT NULL,
+  `interior` int(11) NOT NULL,
+  `valor_aluguel` int(1) NOT NULL,
+  `mensagem` varchar(70) NOT NULL,
+  `level` int(1) NOT NULL,
+  `max-moradores` int(2) NOT NULL,
+  `valor_venda` int(11) NOT NULL,
+  `trancado` tinyint(1) NOT NULL,
+  `impostos` int(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `empresas` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `nome` varchar(70) NOT NULL,
+  `proprietario` varchar(25) DEFAULT 'Ninguem',
+  `valor` int(11) NOT NULL,
+  `valor_cash` int(11) NOT NULL,
+  `valor_venda` int(11) NOT NULL DEFAULT '0',
+  `cofre` int(11) NOT NULL DEFAULT '0',
+  `level` int(2) NOT NULL DEFAULT '0',
+  `producao` int(4) DEFAULT '0',
+  `salario` int(1) DEFAULT '20',
+  `entrada_x` float NOT NULL,
+  `entrada_y` float NOT NULL,
+  `entrada_z` float NOT NULL,
+  `entrada_a` float NOT NULL,
+  `saida_x` float NOT NULL,
+  `saida_y` float NOT NULL,
+  `saida_z` float NOT NULL,
+  `saida_a` float NOT NULL,
+  `interior` int(3) NOT NULL,
+  `funcionario_1` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_1` int(11) NOT NULL DEFAULT '0',
+  `funcionario_2` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_2` int(11) NOT NULL DEFAULT '0',
+  `funcionario_3` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_3` int(11) NOT NULL DEFAULT '0',
+  `funcionario_4` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_4` int(11) NOT NULL DEFAULT '0',
+  `funcionario_5` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_5` int(11) NOT NULL DEFAULT '0',
+  `funcionario_6` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_6` int(11) NOT NULL DEFAULT '0',
+  `funcionario_7` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_7` int(11) NOT NULL DEFAULT '0',
+  `funcionario_8` varchar(25) DEFAULT 'Ninguem',
+  `entregas_funcionario_8` int(11) NOT NULL DEFAULT '0',
+  `mensagem` varchar(70) NOT NULL,
+  `max_funcionarios` int(11) NOT NULL DEFAULT '2',
+  `mapicon` int(11) NOT NULL,
+  `impostos` int(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `propriedades` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `nome` varchar(60) NOT NULL,
+  `entrada_x` float NOT NULL,
+  `entrada_y` float NOT NULL,
+  `entrada_z` float NOT NULL,
+  `entrada_a` float NOT NULL,
+  `saida_x` float NOT NULL,
+  `saida_y` float NOT NULL,
+  `saida_z` float NOT NULL,
+  `saida_a` float NOT NULL,
+  `interior` int(11) NOT NULL,
+  `mapicon` int(11) NOT NULL,
+  `useactor` tinyint(1) NOT NULL DEFAULT '0',
+  `skin` int(3) NOT NULL DEFAULT '0',
+  `spawn_x` float NOT NULL DEFAULT '0',
+  `spawn_y` float NOT NULL DEFAULT '0',
+  `spawn_z` float NOT NULL DEFAULT '0',
+  `spawn_a` float NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-- --------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `radares` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `posicao_x` float NOT NULL,
+  `posicao_y` float NOT NULL,
+  `posicao_z` float NOT NULL,
+  `rotacao_x` float NOT NULL,
+  `rotacao_y` float NOT NULL,
+  `rotacao_z` float NOT NULL,
+  `vida` float NOT NULL,
+  `velocidade` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `username` varchar(25) NOT NULL,
+  `email` varchar(70) NOT NULL,
+  `senha` varchar(65) NOT NULL,
+  `admin` enum('0','1','2','3','4') NOT NULL,
+  `avisos` int(3) NOT NULL DEFAULT '0',
+  `level` int(4) NOT NULL DEFAULT '0',
+  `exp` int(11) NOT NULL DEFAULT '0',
+  `profissao` int(3) NOT NULL DEFAULT '0',
+  `tutorial` tinyint(1) NOT NULL DEFAULT '0',
+  `golds` int(11) NOT NULL DEFAULT '0',
+  `vip` tinyint(1) NOT NULL DEFAULT '0',
+  `tempo-vip` bigint(20) NOT NULL DEFAULT '0',
+  `mp3` int(11) NOT NULL DEFAULT '0',
+  `celular` tinyint(1) NOT NULL DEFAULT '0',
+  `spawn_x` float NOT NULL,
+  `spawn_y` float NOT NULL,
+  `spawn_z` float NOT NULL,
+  `spawn_a` float NOT NULL,
+  `interior` int(3) NOT NULL,
+  `world` int(5) NOT NULL,
+  `ultimo_login` datetime NOT NULL,
+  `data_registro` datetime NOT NULL,
+  `dinheiro` int(11) NOT NULL,
+  `sexo` int(1) NOT NULL,
+  `skin` int(1) NOT NULL,
+  `codigo_ativacao` varchar(10) NOT NULL,
+  `upm` int(2) NOT NULL DEFAULT '10',
+  `ups` int(2) NOT NULL DEFAULT '0',
+  `vida` float NOT NULL DEFAULT '100',
+  `colete` float NOT NULL,
+  `fome` float NOT NULL DEFAULT '100',
+  `sede` float NOT NULL DEFAULT '100',
+  `sono` float NOT NULL DEFAULT '100',
+  `preso` int(11) NOT NULL,
+  `kills` int(11) NOT NULL,
+  `deaths` int(11) NOT NULL,
+  `tempo_online` bigint(20) NOT NULL,
+  `gps` int(1) NOT NULL DEFAULT '0',
+  `bloqueado_carga` int(11) NOT NULL,
+  `mercadoria` enum('0','1','2','') NOT NULL DEFAULT '0',
+  `admin_trabalhando-horas` int(11) NOT NULL,
+  `admin_trabalhando-minutos` int(11) NOT NULL,
+  `admin_trabalhando-segundos` int(11) NOT NULL,
+  `admin_avisos` int(1) NOT NULL,
+  `multas` int(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -1,0 +1,4 @@
+{FFFF00}Termo de uso{FFFFFF}.
+» Sua conta é pessoal e intransferivel, você e somente você deverá possuir a senha da mesma. Não nos responsabilizamos por senhas roubadas.
+» Sua conta tem um prazo de inatividade (tempo sem logar) de 180 dias (6 meses), após esse prazo não havendo login a mesma será deletada dos registros do servidor.
+» Ao registrar sua conta, você tem um prazo de 7 dias para ativar, após esse prazo não ativando a conta, a mesma será deletada do servidor.
